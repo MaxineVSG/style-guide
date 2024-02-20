@@ -4,9 +4,9 @@ Storybook of vuetify components with Akero theme styling and guidelines.
 
 ## How To Run
 
-`nvm use 20`
-`npm install`
-`npm run storybook`
+- `nvm use 20`
+- `npm install`
+- `npm run storybook`
 
 ## Live Link
 
