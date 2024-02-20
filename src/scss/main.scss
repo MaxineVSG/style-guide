@@ -1,0 +1,19 @@
+@import "_settings";
+@import "_utilities/border";
+
+.v-btn {
+    box-shadow: none !important;
+    &:not(.v-btn--icon) {
+        border-radius: 1rem !important;
+    }
+}
+
+.v-card {
+    background-color: $white !important;
+    border: $base-border;
+    box-shadow: none;
+}
+
+.v-menu > .v-overlay__content > .v-list {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) !important;
+}

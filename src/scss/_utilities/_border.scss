@@ -1,0 +1,60 @@
+$base-border-color: $dark-grey !default;
+$base-border-width: 1px !default;
+$base-border: $base-border-width solid $base-border-color !default;
+
+.b { border: $base-border !important; }
+.bl { border-left: $base-border !important; }
+.br { border-right: $base-border !important; }
+.bt { border-top: $base-border !important; }
+.bb { border-bottom: $base-border !important; }
+
+.b-none { border: none !important; }
+.bl-none { border-left: none !important; }
+.br-none { border-right: none !important; }
+.bt-none { border-top: none !important; }
+.bb-none { border-bottom: none !important; }
+
+.b-primary {
+    border-color: $primary !important;
+}
+
+.b-secondary {
+    border-color: $secondary !important;
+}
+
+.b-info {
+    border-color: $info !important;
+}
+
+.b-success {
+    border-color: $success !important;
+}
+
+.b-warning {
+    border-color: $warning !important;
+}
+
+.b-danger {
+    border-color: $danger !important;
+}
+
+.v-sheet--border {
+    &.bg-primary-light {
+        border-color: $primary !important;
+    }
+    &.bg-secondary-light {
+        border-color: $secondary !important;
+    }
+    &.bg-info-light {
+        border-color: $info !important;
+    }
+    &.bg-success-light {
+        border-color: $success !important;
+    }
+    &.bg-warning-light {
+        border-color: $warning !important;
+    }
+    &.bg-danger-light {
+        border-color: $danger !important;
+    }
+}
