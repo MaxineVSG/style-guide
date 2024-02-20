@@ -6,7 +6,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_e3311958c6b24da"
   },
   "dependencies": {
     "@mdi/font": "7.0.96",
@@ -22,6 +23,7 @@
     "@storybook/vue3": "^7.6.16",
     "@storybook/vue3-vite": "^7.6.16",
     "@vitejs/plugin-vue": "^4.5.0",
+    "chromatic": "^10.9.6",
     "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
