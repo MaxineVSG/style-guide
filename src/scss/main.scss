@@ -20,3 +20,8 @@
 .v-tab {
     text-transform: capitalize !important;
 }
+
+.required label::after {
+    content: " *";
+    color: $danger;
+}

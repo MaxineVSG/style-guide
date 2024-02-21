@@ -10,4 +10,4 @@ Storybook of vuetify components with Akero theme styling and guidelines.
 
 ## Live Link
 
-- https://65d494725a7a61a7a3ad2c25-fyzqnyozdz.chromatic.com/ 
+- https://65d494725a7a61a7a3ad2c25-zovsfpglgo.chromatic.com/ 
