@@ -1,6 +1,6 @@
 <template>
   <v-app style="height: 100px;">
-    <v-app-bar elevation="0" rounded="pill" color="light-grey">
+    <v-app-bar>
       <template v-slot:prepend>
         <v-app-bar-nav-icon></v-app-bar-nav-icon>
       </template>

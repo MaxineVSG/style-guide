@@ -26,9 +26,6 @@ export default {
       },
       options: ['primary', 'secondary', 'info', 'success', 'warning', 'danger', 'black', 'dark-grey', 'white']
     },
-    variant: {
-      table:  { disable: true },
-    }
   },
 };
 
@@ -37,17 +34,6 @@ export const Standard = {
     title: 'Title',
     subtitle: 'subtitle',
     text: 'Lorem ipsum',
-    color: 'dark-grey'
-  },
-};
-
-export const White = {
-  args: {
-    title: 'Title',
-    subtitle: 'subtitle',
-    text: 'Lorem ipsum',
-    color: 'white',
-    variant: 'flat'
   },
 };
 

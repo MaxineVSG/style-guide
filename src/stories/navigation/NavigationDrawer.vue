@@ -1,12 +1,7 @@
 <template>
-  <v-card>
+  <v-card-white>
     <v-layout>
-      <v-navigation-drawer
-        expand-on-hover
-        permanent
-        rail
-        color="light-grey"
-      >
+      <v-navigation-drawer>
         <v-list>
           <v-list-item
             prepend-avatar="https://res.cloudinary.com/big-top/image/upload/v1699272542/system-v2/logos/akeroLogo2023Icon.svg"
@@ -26,7 +21,7 @@
 
       <v-main style="height: 250px"></v-main>
     </v-layout>
-  </v-card>
+  </v-card-white>
 </template>
 
 <script>

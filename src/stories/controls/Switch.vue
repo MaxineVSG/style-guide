@@ -1,5 +1,5 @@
 <template>
-  <v-switch label="Switch" inset color="success"></v-switch>
+  <v-switch label="Switch"></v-switch>
 </template>
 
 <script>

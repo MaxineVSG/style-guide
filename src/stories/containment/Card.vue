@@ -1,11 +1,23 @@
 <template>
-  <v-card
+  <v-card-white
+    v-if="color === 'white'"
     :color="color"
     :title="title"
     :subtitle="subtitle"
     :text="text"
-    :class="`b b-${color}`"
-    :variant="variant"
+    :class="b-dark-grey"
+  >
+    <v-card-actions>
+      <v-btn>Click me</v-btn>
+    </v-card-actions>
+  </v-card-white>
+  <v-card
+    v-else
+    :color="color"
+    :title="title"
+    :subtitle="subtitle"
+    :text="text"
+    :class="`b-${color}`"
   >
     <v-card-actions>
       <v-btn>Click me</v-btn>
@@ -29,11 +41,7 @@ export default {
     },
     color: {
       type: String,
-      default: 'dark-grey'
-    },
-    variant: {
-      type: String,
-      default: 'tonal'
+      default: 'white'
     }
   },
 

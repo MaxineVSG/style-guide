@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar :collapse="collapse" density="comfortable" :color="color">
+    <v-toolbar :collapse="collapse" :color="color">
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
       <v-toolbar-title>Akero</v-toolbar-title>

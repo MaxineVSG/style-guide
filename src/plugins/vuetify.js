@@ -11,6 +11,7 @@ import '../scss/main.scss'
 
 // Composables
 import { createVuetify } from 'vuetify'
+import { VCard } from 'vuetify/components/VCard'
 
 export default createVuetify({
   theme: {
@@ -46,6 +47,43 @@ export default createVuetify({
         }
       }
     }
+  },
+  aliases: {
+    VCardWhite: VCard,
+  },
+  defaults: {
+    VCardWhite: {
+      variant: 'flat',
+      class: 'b b-dark-grey',
+    },
+    VCard: {
+      variant: 'tonal',
+      class: 'b',
+    },
+    VToolbar: {
+      density: 'compact',
+    },
+    VRadioGroup: {
+      color: 'primary',
+    },
+    VSwitch: {
+      inset: true,
+      color: 'success',
+    },
+    VAppBar: {
+      elevation: 0,
+      rounded: 'pill',
+      color: 'light-grey',
+    },
+    VNavigationDrawer: {
+      expandOnHover: true,
+      permanent: true,
+      rail: true,
+      color: 'light-grey',
+    },
+    VPagination: {
+      color: 'dark-grey',
+    },
   },
   icons: {
     iconfont: 'mdi',
