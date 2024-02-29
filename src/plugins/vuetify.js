@@ -50,15 +50,25 @@ export default createVuetify({
   },
   aliases: {
     VCardWhite: VCard,
+    VCardBlank: VCard,
   },
   defaults: {
     VCardWhite: {
       variant: 'flat',
       class: 'b b-dark-grey',
     },
+    VCardBlank: {
+      variant: 'flat',
+    },
     VCard: {
       variant: 'tonal',
       class: 'b',
+    },
+    VCardTitle: {
+      style: 'font-size: 1.05rem; line-height: 1.75rem;',
+    },
+    VCardSubtitle: {
+      style: 'white-space: break-spaces;',
     },
     VToolbar: {
       density: 'compact',
@@ -74,6 +84,16 @@ export default createVuetify({
       elevation: 0,
       rounded: 'pill',
       color: 'light-grey',
+      density: 'compact',
+      VBtn: {
+        density: 'compact'
+      },
+      VIcon: {
+        size: 'sm'
+      },
+      VAppBarNavIcon: {
+        density: 'compact',
+      },
     },
     VNavigationDrawer: {
       expandOnHover: true,
@@ -84,6 +104,52 @@ export default createVuetify({
     VPagination: {
       color: 'dark-grey',
     },
+    VTextField: {
+      variant: 'outlined'
+    },
+    VTextarea: {
+      variant: 'outlined'
+    },
+    VSelect: {
+      variant: 'outlined'
+    },
+    VDataTable: {
+      fixedHeader: true,
+    },
+    VTab: {
+      style: {'font-size': '0.75rem'}
+    },
+    VStepper: {
+      altLabels: true,
+      VStepperHeader: {
+        style: {'box-shadow': 'unset'}
+      },
+      VDivider: {
+        color: 'primary'
+      }
+    },
+    VAlert: {
+      variant: 'tonal',
+      class: 'b',
+    },
+    VProgressCircular: {
+      color: 'primary',
+      indeterminate: true,
+    },
+    VProgressLinear: {
+      color: 'primary',
+      indeterminate: true,
+    },
+    VImg: {
+      cover: true,
+    },
+    VColorPicker: {
+      elevation: 0,
+      class: 'b',
+    },
+    VDatePicker: {
+      class: 'b',
+    }
   },
   icons: {
     iconfont: 'mdi',
