@@ -1,6 +1,6 @@
 <template>
-  <v-btn v-if="singleIcon" :color="color" :icon="icon" :variant="variant"></v-btn>
-  <v-btn v-else :color="color" :prepend-icon="prependIcon" :append-icon="appendIcon" :variant="variant">
+  <v-btn v-if="singleIcon" :color="color" :icon="icon" :variant="variant" :size="size"></v-btn>
+  <v-btn v-else :color="color" :prepend-icon="prependIcon" :append-icon="appendIcon" :variant="variant" :size="size">
     {{ label }}
   </v-btn>
 </template>
