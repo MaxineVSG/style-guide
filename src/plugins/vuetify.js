@@ -132,14 +132,6 @@ export default createVuetify({
       variant: 'tonal',
       class: 'b',
     },
-    VProgressCircular: {
-      color: 'primary',
-      indeterminate: true,
-    },
-    VProgressLinear: {
-      color: 'primary',
-      indeterminate: true,
-    },
     VImg: {
       cover: true,
     },
