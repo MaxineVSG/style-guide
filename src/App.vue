@@ -25,8 +25,8 @@
           <strong>Live Link</strong>
           <v-list class="d-flex flex-column ga-3">
             <v-list-item link class="bg-primary-light d-inline-flex rounded"
-              title="https://65d494725a7a61a7a3ad2c25-xsrfqbgdmp.chromatic.com/"
-              href="https://65d494725a7a61a7a3ad2c25-xsrfqbgdmp.chromatic.com/"
+              title="https://65d494725a7a61a7a3ad2c25-qwprjkjgqb.chromatic.com/"
+              href="https://65d494725a7a61a7a3ad2c25-qwprjkjgqb.chromatic.com/"
               target="_blank"
             ></v-list-item>
           </v-list>
