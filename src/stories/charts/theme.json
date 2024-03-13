@@ -1,0 +1,15 @@
+{
+  "color": ["#466FD1", "#9146BF", "#D3980E", "#4EB95C", "#C74455"],
+  "bar": {
+    "barWidth": "65%",
+    "itemStyle": {
+      "borderRadius": [200, 200, 0, 0]
+    },
+    "emphasis": {
+      "itemStyle": {
+        "barBorderWidth": "0",
+        "barBorderColor": "#444444"
+      }
+    }
+  }
+}
