@@ -1,5 +1,5 @@
 <template>
-  <v-card-white>
+  <v-card>
     <v-card-item class="pa-7">
       <v-form @submit.prevent>
         <v-text-field
@@ -37,7 +37,7 @@
         </div>
       </v-form>
     </v-card-item>
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

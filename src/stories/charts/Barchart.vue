@@ -1,7 +1,7 @@
 <template>
-  <v-card-white style="height: 500px;">
+  <v-card style="height: 500px;">
     <v-chart ref="barchartRef" theme="akero-theme" :option="option" autoresize :showBackground="showBackground" :setData="setData"/>
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

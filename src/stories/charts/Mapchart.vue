@@ -1,7 +1,7 @@
 <template>
-  <v-card-white style="height: 500px;">
+  <v-card style="height: 500px;">
     <v-chart theme="akero-theme" :option="option" autoresize />
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

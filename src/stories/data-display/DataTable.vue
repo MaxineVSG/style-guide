@@ -1,5 +1,5 @@
 <template>
-  <v-card-white>
+  <v-card>
     <v-card-item>
       <template v-slot:text>
         <v-text-field
@@ -34,7 +34,7 @@
         </template>
       </v-data-table>
     </v-card-item>
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

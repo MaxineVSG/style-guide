@@ -1,7 +1,7 @@
 <template>
-  <v-card-white style="height: 500px">
+  <v-card style="height: 500px">
     <v-chart ref="radarchartRef" theme="akero-theme" :option="option" :setArea="setArea" autoresize />
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

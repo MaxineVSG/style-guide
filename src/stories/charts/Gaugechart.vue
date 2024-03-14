@@ -1,7 +1,7 @@
 <template>
-  <v-card-white style="height: 500px;">
+  <v-card style="height: 500px;">
     <v-chart ref="gaugechartRef" theme="akero-theme" :option="option" :progress="progress" :target="target" autoresize />
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

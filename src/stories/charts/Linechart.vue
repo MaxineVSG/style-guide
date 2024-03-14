@@ -1,7 +1,7 @@
 <template>
-  <v-card-white style="height: 500px;">
+  <v-card style="height: 500px;">
     <v-chart ref="linechartRef" theme="akero-theme" :option="option" :setData="setData" :smoothLine="smoothLine" :noAxis="noAxis" autoresize />
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

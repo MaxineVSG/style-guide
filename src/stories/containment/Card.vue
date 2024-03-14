@@ -1,23 +1,9 @@
 <template>
-  <v-card-white
-    v-if="color === 'white'"
-    :color="color"
-    :title="title"
-    :subtitle="subtitle"
-    :text="text"
-    :class="b-dark-grey"
-  >
-    <v-card-actions>
-      <v-btn>Click me</v-btn>
-    </v-card-actions>
-  </v-card-white>
   <v-card
-    v-else
-    :color="color"
     :title="title"
     :subtitle="subtitle"
     :text="text"
-    :class="`b-${color}`"
+    :class="`bg-${color}-light`"
   >
     <v-card-actions>
       <v-btn>Click me</v-btn>

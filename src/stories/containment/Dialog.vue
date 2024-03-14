@@ -5,7 +5,7 @@
     </template>
   
     <template v-slot:default="{ isActive }">
-      <v-card-white title="Dialog">
+      <v-card title="Dialog">
         <v-card-text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </v-card-text>
@@ -17,7 +17,7 @@
             @click="isActive.value = false"
           ></v-btn>
         </v-card-actions>
-      </v-card-white>
+      </v-card>
     </template>
   </v-dialog>
 </template>

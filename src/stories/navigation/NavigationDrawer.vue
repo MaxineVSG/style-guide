@@ -1,5 +1,5 @@
 <template>
-  <v-card-white>
+  <v-card>
     <v-layout>
       <v-navigation-drawer>
         <v-list>
@@ -21,7 +21,7 @@
 
       <v-main style="height: 250px"></v-main>
     </v-layout>
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <v-card-white :class="{'d-flex flex-row' : direction === 'vertical'}">
+  <v-card :class="{'d-flex flex-row' : direction === 'vertical'}">
     <v-tabs
       v-model="tab"
       bg-color="primary-light"
@@ -25,7 +25,7 @@
         </v-window-item>
       </v-window>
     </v-card-text>
-  </v-card-white>
+  </v-card>
 </template>
 
 <script>

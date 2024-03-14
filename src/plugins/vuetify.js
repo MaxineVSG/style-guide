@@ -49,20 +49,14 @@ export default createVuetify({
     }
   },
   aliases: {
-    VCardWhite: VCard,
     VCardBlank: VCard,
   },
   defaults: {
-    VCardWhite: {
-      variant: 'flat',
-      class: 'b b-dark-grey',
-    },
     VCardBlank: {
       variant: 'flat',
     },
     VCard: {
-      variant: 'tonal',
-      class: 'b',
+      variant: 'outlined',
     },
     VCardTitle: {
       style: 'font-size: 1.05rem; line-height: 1.75rem;',
